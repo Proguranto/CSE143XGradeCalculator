@@ -1,5 +1,3 @@
-package CSE143XGradeCalculator;
-
 import java.util.*;
 
 public class Calculator {
