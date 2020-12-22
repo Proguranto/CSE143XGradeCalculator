@@ -31,7 +31,7 @@ public class Calculator {
         System.out.print("bonus points: ");
         sum += input.nextDouble();
         System.out.println();
-        double n = (sum / 220) * 100;
+        double n = (sum / 230) * 100;
         System.out.printf("result (percentage): %.2f", n);
         gpa(n);
         input.close();
