@@ -1,10 +1,14 @@
+// Grant Tannert
+// Calculator is a percentage calculator or gpa estimate for the CSE 143X Class
+// at the University of Washington. It involves a fun interaction with some GUI
+// aspects of Java. I hope you enjoy playing around with this program :)
+
 import java.util.*;
 
 public class Calculator {
     public static void main(String[] args) {
         introduction();
 
-        // scanner 
         Scanner input = new Scanner(System.in);
         double sum = 0;
         for (int i = 1; i <= 10; i++) {
@@ -39,7 +43,7 @@ public class Calculator {
         System.out.println();
     }
 
-    // prints out your estimated gpa
+    // prints out your estimated gpa + GUI interaction
     public static void gpa(double n) {
         if (n > 90) {
             // outputs a gui interactive program

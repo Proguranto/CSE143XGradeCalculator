@@ -1,3 +1,7 @@
+// Grant Tannert
+// Mouse is the class that creates the Interactive GUI aspect of this program
+// which deals with the mouse interaction and the frame/panel/label display.
+
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
