@@ -1,3 +1,5 @@
+package CSE143XGradeCalculator;
+
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
@@ -46,7 +48,7 @@ public class Mouse implements MouseListener {
     @Override
     // when user clicks mouse
     public void mouseClicked(MouseEvent e) {
-        label.setText("Calculating... Press image for 5s");
+        label.setText("Calculating... Press image for 7s");
         label.setIcon(new ImageIcon("Calculating.gif"));
         changeText(15, "MV Boli", Font.BOLD, JLabel.CENTER, JLabel.TOP);
         panel.setBorder(BorderFactory.createBevelBorder(-1));
